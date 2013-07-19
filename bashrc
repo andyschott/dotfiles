@@ -1,5 +1,5 @@
 # Custom Prompt
-# host:pwd$
+# username:pwd$
 export PS1="\u:\e[m\e[0;31m\W\e[m\e[0;34m\$\e[m"
 
 export PATH="~/bin:/usr/local/bin:$PATH"
