@@ -2,3 +2,9 @@
 
 # BBEdit Project Files
 *.bbprojectd
+
+# XCode
+xcuserdata
+
+# Emacs
+*~
