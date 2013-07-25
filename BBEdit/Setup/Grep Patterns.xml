@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SavedGrepPatterns</key>
+	<array>
+		<dict>
+			<key>ReplacePattern</key>
+			<string>/* \1 */</string>
+			<key>SearchPattern</key>
+			<string>{([^}]*)}</string>
+			<key>Title</key>
+			<string>Pascal Comment to C Comment</string>
+			<key>UniqueID</key>
+			<string>D44A51CA-B09A-441B-B2F6-6F08DD82A57A</string>
+		</dict>
+		<dict>
+			<key>ReplacePattern</key>
+			<string>/* \1 */</string>
+			<key>SearchPattern</key>
+			<string>//(.*)</string>
+			<key>Title</key>
+			<string>C++ Comment to C Comment</string>
+			<key>UniqueID</key>
+			<string>D815D15E-30C9-4490-AD89-CACFF88FEBF5</string>
+		</dict>
+		<dict>
+			<key>ReplacePattern</key>
+			<string>\t</string>
+			<key>SearchPattern</key>
+			<string> +</string>
+			<key>Title</key>
+			<string>Run of Spaces to One Tab</string>
+			<key>UniqueID</key>
+			<string>BDDFBD90-DBC1-4C8E-BF1A-DA58E30144CA</string>
+		</dict>
+		<dict>
+			<key>ReplacePattern</key>
+			<string></string>
+			<key>SearchPattern</key>
+			<string>^[^ \t#\r/@][^\r]*\([^\r]*\)$</string>
+			<key>Title</key>
+			<string>C Function Header</string>
+			<key>UniqueID</key>
+			<string>AF3577DE-19EF-488A-B22A-28BC3AA4D3AA</string>
+		</dict>
+		<dict>
+			<key>ReplacePattern</key>
+			<string>{\1}</string>
+			<key>SearchPattern</key>
+			<string>/\*([^\r]*)\*/</string>
+			<key>Title</key>
+			<string>C Comment to Pascal Comment</string>
+			<key>UniqueID</key>
+			<string>3F42742E-3984-457B-82DA-DCBE70FD1F5A</string>
+		</dict>
+		<dict>
+			<key>ReplacePattern</key>
+			<string>\1\2\t\3</string>
+			<key>SearchPattern</key>
+			<string>(.*)(\t\t*)(.*)</string>
+			<key>Title</key>
+			<string>Shift Variables Right</string>
+			<key>UniqueID</key>
+			<string>D1D0AF47-B513-4778-ADBA-98CA1DE81FF2</string>
+		</dict>
+		<dict>
+			<key>ReplacePattern</key>
+			<string>\1\3\4</string>
+			<key>SearchPattern</key>
+			<string>(.*)(\t)(\t*)(.*)</string>
+			<key>Title</key>
+			<string>Shift Variables Left</string>
+			<key>UniqueID</key>
+			<string>431D3BD3-84E7-4E8D-90EA-0B4F5575AD4B</string>
+		</dict>
+		<dict>
+			<key>ReplacePattern</key>
+			<string>\1\L\2\E\3</string>
+			<key>SearchPattern</key>
+			<string>(&lt;img [^&gt;]*src\s*=\s*")([^"]+)("[^&gt;]*&gt;)</string>
+			<key>Title</key>
+			<string>Lower Case SRC values in IMG tags</string>
+			<key>UniqueID</key>
+			<string>AF4085DB-7FBA-4DFC-B951-9EB185FB2826</string>
+		</dict>
+		<dict>
+			<key>ReplacePattern</key>
+			<string>\1\L\2\E\3</string>
+			<key>SearchPattern</key>
+			<string>(&lt;a [^&gt;]*href\s*=\s*")([^"]+)("[^&gt;]*&gt;)</string>
+			<key>Title</key>
+			<string>Lower Case HREF values in A tags</string>
+			<key>UniqueID</key>
+			<string>5D735D49-988C-4F8E-873C-3EE708D98617</string>
+		</dict>
+		<dict>
+			<key>ReplacePattern</key>
+			<string>\1</string>
+			<key>SearchPattern</key>
+			<string>^[^\t]+\t([^\t]+)</string>
+			<key>Title</key>
+			<string>Column #2</string>
+			<key>UniqueID</key>
+			<string>5D6BEF37-9D9B-465B-A769-6C53CB43D84B</string>
+		</dict>
+		<dict>
+			<key>ReplacePattern</key>
+			<string>foo bar</string>
+			<key>SearchPattern</key>
+			<string>(\d+\.){3}\d+</string>
+			<key>Title</key>
+			<string>Dotted Quad</string>
+			<key>UniqueID</key>
+			<string>0E15C0DB-428A-49E7-BCF0-309928E6318A</string>
+		</dict>
+	</array>
+</dict>
+</plist>

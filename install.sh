@@ -1,16 +1,18 @@
 #!/bin/bash
 
-rm -f ~/.bash_profile
-ln ./bash_profile ~/.bash_profile
+cp -f ./bash_profile ~/.bash_profile
 
-rm -f ~/.bashrc
-ln ./bashrc ~/.bashrc
+cp -f ./bashrc ~/.bashrc
 
-rm -f ~/.emacs
-ln ./emacs ~/.emacs
+cp -f ./emacs ~/.emacs
 
-rm -f ~/.gitconfig
-ln ./gitconfig ~/.gitconfig
+cp -f ./gitconfig ~/.gitconfig
 
-rm -f ~/.gitignore
-ln ./gitignore ~/.gitignore
+cp -f ./gitignore ~/.gitignore
+
+dir=${PWD}
+rm -f ~/Library/Application\ Support\BBEdit
+
+pushd ~/Library/Application\ Support
+ln -s "$dir/BBEdit" BBEdit
+popd
