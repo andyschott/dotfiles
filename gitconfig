@@ -18,3 +18,5 @@
 	co = checkout
 [url "https://github.com/andyschott/"]
 	insteadOf = andy:
+[url "/Users/andys/git/"]
+	insteadof = shared:
