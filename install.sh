@@ -14,3 +14,4 @@ cp -f ./gitignore ~/.gitignore
 # Ruby
 cp -f ./rvmrc ~/.rvmrc
 cp -f ./rspec ~/.rspec
+cp -f ./guardrc ~/.guardrc
