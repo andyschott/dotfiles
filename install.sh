@@ -9,3 +9,5 @@ cp -f ./emacs ~/.emacs
 cp -f ./gitconfig ~/.gitconfig
 
 cp -f ./gitignore ~/.gitignore
+
+cp -f ./rvmrc ~/.rvmrc
