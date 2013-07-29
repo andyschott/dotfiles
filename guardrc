@@ -1,0 +1,2 @@
+# clear the shell before each test run
+Guard.options[:clear] = true

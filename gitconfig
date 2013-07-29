@@ -24,4 +24,6 @@
 [alias]
 	co = checkout
 [url "https://github.com/andyschott/"]
-	insteadOf = andy:
+  insteadOf = "andy:"
+[url "https://github.com/"]
+  insteadOf = "github:"
