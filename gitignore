@@ -5,6 +5,7 @@
 
 # XCode
 xcuserdata
+*.xcworkspace
 
 # Emacs
 *~
