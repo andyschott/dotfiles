@@ -15,3 +15,4 @@ cp -f ./gitignore ~/.gitignore
 cp -f ./rvmrc ~/.rvmrc
 cp -f ./rspec ~/.rspec
 cp -f ./guardrc ~/.guardrc
+cp -f ./gemrc ~/.gemrc
