@@ -12,3 +12,4 @@ export BUNDLER_EDITOR="/Users/schottac/bin/bbedit_editor.sh"
 alias ls="ls -FGhl"
 
 # Environment variables
+export NODE_PATH=/usr/local/lib/node_modules
