@@ -10,3 +10,4 @@ export EDITOR="emacs -nw"
 alias ls="ls -FGhl"
 
 # Environment variables
+export NODE_PATH=/usr/local/lib/node_modules
