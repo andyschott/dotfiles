@@ -20,5 +20,5 @@
 	insteadOf = andy:
 [url "https://github.com/"]
   insteadOf = "github:"
-[url "/Users/andys/git/"]
+[url "ssh://git@try-imac/Users/git/src/"]
 	insteadof = shared:
