@@ -7,7 +7,7 @@
 	name = Andy Schott
 	email = andy@andyschott.com
 [core]
-	editor = /usr/local/bin/bbedit
+	editor = /usr/local/bin/bbedit --wait --resume
 	excludesfile = /Users/schottac/.gitignore
 [credential]
 	helper = osxkeychain
@@ -23,6 +23,7 @@
 	format = web
 [alias]
 	co = checkout
+	st = status
 [url "https://github.com/andyschott/"]
   insteadOf = "andy:"
 [url "https://github.com/"]
