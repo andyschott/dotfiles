@@ -8,6 +8,11 @@
 	email = andy@andyschott.com
 [core]
 	excludesfile = /Users/aschott/.gitignore
+	editor = code --wait
+[diff]
+	tool = vscode
+[difftool "vscode"]
+	cmd = code --wait --diff $LOCAL $REMOTE
 [credential]
 	helper = osxkeychain
 [push]
