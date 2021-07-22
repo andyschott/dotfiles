@@ -1,11 +1,11 @@
 #!/bin/sh
 
 # Git
-cp -f ./gitconfig ~/.gitconfig
-cp -f ./gitignore ~/.gitignore
+cp -f ./git/gitconfig ~/.gitconfig
+cp -f ./git/gitignore ~/.gitignore
 
 # ZSH
 ./download-zsh-git-completions.sh
 
-cp -f ./zprofile ~/.zprofile
-cp -f ./zshrc ~/.zshrc
+cp -f ./zsh/zprofile ~/.zprofile
+cp -f ./zsh/zshrc ~/.zshrc
