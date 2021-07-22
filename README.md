@@ -1,7 +1,7 @@
 dotfiles
 ========
 
-All my configuration files for OS X.
+All my configuration files for macOS.
 
 Installation
 ===========

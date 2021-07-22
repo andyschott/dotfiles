@@ -7,16 +7,9 @@
 	name = Andy Schott
 	email = andy@andyschott.com
 [core]
-	editor = /usr/local/bin/bbedit --wait --resume
-	excludesfile = /Users/schottac/.gitignore
+	excludesfile = /Users/aschott/.gitignore
 [credential]
 	helper = osxkeychain
-[diff]
-  tool = "bbdiff"
-[difftool]
-  prompt = false
-[difftool "bbdiff"]
-  cmd = /usr/local/bin/bbdiff --wait --resume "$LOCAL" "$REMOTE"
 [push]
 	default = simple
 [help]
@@ -24,7 +17,3 @@
 [alias]
 	co = checkout
 	st = status
-[url "https://github.com/andyschott/"]
-  insteadOf = "andy:"
-[url "https://github.com/"]
-  insteadOf = "github:"

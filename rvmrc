@@ -1,2 +1,0 @@
-# Reset to the default / system gem when leaving a directory with a project-specific ruby / gemset.
-rvm_project_rvmrc_default=1
