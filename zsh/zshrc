@@ -1,5 +1,32 @@
+path=('/opt/homebrew/bin' '/opt/homebrew/sbin' $path)
+
+# Add .NET Core SDK tools
+#path+=('/Users/aschott/.dotnet/tools')
+
+#path+=('/Users/aschott/.docker/bin')
+
+export PATH
+
 # Load Git completion
 zstyle ':completion:*:*:git:*' script ~/.zsh/git-completion.bash
 fpath=(~/.zsh $fpath)
 
-autoload -Uz compinit && compinit
+#autoload -Uz compinit && compinit
+autoload -U colors && colors
+
+# Load Angular CLI autocompletion.
+source <(ng completion script)
+
+# Prompt
+parse_git_branch() {
+    git branch 2> /dev/null | sed -n -e 's/^\* \(.*\)/\1/p'
+}
+
+NEWLINE=$'\n'
+setopt prompt_subst
+autoload -Uz vcs_info
+zstyle ':vcs_info:*' enable git
+zstyle ':vcs_info:git*' formats "(%b)"
+zstyle ':vcs_info:git*' actionformats "(%b)"
+precmd() { vcs_info }
+PROMPT='%F{#00ff00}[%t] %F{#ffff00}%1~ %F{#00bfff}${vcs_info_msg_0_}%F{#ffffff}${NEWLINE}$ ' 

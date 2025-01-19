@@ -9,18 +9,20 @@
 [core]
 	excludesfile = /Users/aschott/.gitignore
 	editor = code --wait
-[diff]
-	tool = vscode
-[difftool "vscode"]
-	cmd = code --wait --diff $LOCAL $REMOTE
 [credential]
 	helper = osxkeychain
 [push]
 	default = simple
 [help]
 	format = web
+	autocorrect = 1
 [alias]
 	co = checkout
 	st = status
 [init]
 	defaultBranch = main
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
