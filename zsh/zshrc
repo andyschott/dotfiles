@@ -1,21 +1,25 @@
+
 path=('/opt/homebrew/bin' '/opt/homebrew/sbin' $path)
 
 # Add .NET Core SDK tools
-#path+=('/Users/aschott/.dotnet/tools')
+path+=('/Users/aschott/.dotnet/tools')
 
-#path+=('/Users/aschott/.docker/bin')
+path+=('/Users/aschott/.docker/bin')
 
 export PATH
+
+autoload -Uz compinit; compinit
+autoload -U colors && colors
 
 # Load Git completion
 zstyle ':completion:*:*:git:*' script ~/.zsh/git-completion.bash
 fpath=(~/.zsh $fpath)
 
-#autoload -Uz compinit && compinit
-autoload -U colors && colors
-
 # Load Angular CLI autocompletion.
 source <(ng completion script)
+
+# The following lines have been added by Docker Desktop to enable Docker CLI completions.
+fpath=(/Users/aschott/.docker/completions $fpath)
 
 # Prompt
 parse_git_branch() {
