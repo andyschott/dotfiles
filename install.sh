@@ -9,3 +9,7 @@ cp -f ./git/gitignore ~/.gitignore
 
 cp -f ./zsh/zprofile ~/.zprofile
 cp -f ./zsh/zshrc ~/.zshrc
+
+# Vim
+
+cp -f ./vim/vimrc ~/.vimrc
